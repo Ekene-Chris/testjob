@@ -1,6 +1,6 @@
 #!/bin/bash
-git clone git@bitbucket.org:kainosraiments-admin/mslearn-tailspin-spacegame-web.git
-cd mslearn-tailspin-spacegame-web
+git clone ssh://git@bitbucket.ce.wolterskluwer.io:7999/ctep/cdicms-ss.git
+cd cdicms-ss
 git branch -a | cut -f3 -d/
 
 readarray -t branch_array <<< "$(git branch -a | cut -f3 -d/)"
